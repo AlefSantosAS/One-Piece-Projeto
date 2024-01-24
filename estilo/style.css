@@ -6,7 +6,7 @@
 }
 h1 {
     text-align: center;
-    font-size: 70px;
+    font-size: 13vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
 }
@@ -19,11 +19,12 @@ body{
 }
 menu{
     background-color: rgba(0, 0, 0, 0.603);
+    text-align: center;
     
 }
     menu >a{
     color: white;
-    font-size: 20px;
+    font-size: 3.5vw;
     margin: 5px;
     text-decoration: none;
     }
@@ -32,5 +33,5 @@ menu{
         color: rgba(158, 133, 23, 0.849);
     }
     img{
-        width: 100vw;
+        width: 95vw;
     }
