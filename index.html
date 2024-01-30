@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="estilo\style.css" media="screen">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilo\style.css">
+    <link rel="stylesheet" href="Estilo/Midiaquery.css">
 </head>
-<body>
+<body onresize="mudoutamanho()">
     <header>
         <h1>Ar7 player</h1>
        
     </header>
-    <main>
-        <menu>
-            <a href="#">One Piece</a>
-            <a href="#">Afro Samurai</a>
-            <a href="#">Vinland Saga</a>
-            <a href="#">Drifters</a>
-            <a href="#">Jogos</a>            
+    
+        
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">One Piece</a></li>
+                <li><a href="#">Afro Samurai</a></li>
+                <li><a href="#">Vinland Saga</a></li>
+                <li><a href="#">Drifters</a></li>
+                <li><a href="#">Jogos</a></li>
+            </ul>            
         </menu>
+        <main>
         <br>
         <br>
 
