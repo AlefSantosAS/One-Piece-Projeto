@@ -37,13 +37,14 @@ body{
     
     menu{
         display: none;
+        text-align: center;
     }
     menu >ul{       
         list-style-type: none;
     }
     menu >ul > li> a{
         display: block;
-        padding: 10px;
+        padding: 5px;
         text-decoration: none;
         background-color: rgba(0, 0, 0, 0.61);
         color: white;
@@ -55,7 +56,7 @@ body{
         background-color: gray;
     }
     main{
-        width: 90vw;
+        width: 440px;
         background-color: white;
         margin: auto;
         padding: 10px;
@@ -64,3 +65,4 @@ body{
         
     
     }
+   

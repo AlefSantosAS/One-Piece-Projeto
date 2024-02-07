@@ -12,6 +12,10 @@ menu > ul>li{
     display: inline-block;
 }
 main{
-    width: 768px;
+    width: 440x;
     margin: auto;
+    text-align: justify;
+}
+img{
+    width: 90vw;
 }

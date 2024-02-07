@@ -18,10 +18,10 @@
         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
         <menu id="itens">
             <ul>
-                <li><a href="#">One Piece</a></li>
-                <li><a href="#">Afro Samurai</a></li>
-                <li><a href="#">Vinland Saga</a></li>
-                <li><a href="#">Drifters</a></li>
+                <li><a href="https://meuanime.cc/epsonline/one-piece" target="_blank">One Piece</a></li>
+                <li><a href="https://meuanime.cc/epsonline/afro-samurai-online" target="_blank">Afro Samurai</a></li>
+                <li><a href="https://meuanime.cc/epsonline/vinland-saga-2" target="">Vinland Saga</a></li>
+                <li><a href="https://meuanime.cc/epsonline/drifters" target="">Drifters</a></li>
                 <li><a href="#">Jogos</a></li>
             </ul>            
         </menu>
@@ -34,9 +34,28 @@
              mas ele pode ser erroneamente classificado como um gênero.
               No Japão, o termo refere-se a todas as formas de animação do mundo inteiro.
                Os dicionários de língua inglesa define anime como um "estilo de animação japonesa" ou como "um estilo de animação criado no Japão"</p>
-            <img src="imagens/foto capa .jpg" alt="Foto capa">
+            <br>
+               <img src="imagens/foto capa .jpg" alt="Foto capa">
     
             </main>
+            <script>
+                function mudoutamanho() {
+                    if (window.innerWidth >= 768){
+                        itens.style.display = 'block'
+                    } else {
+                        itens.style.display = 'none'
+                    }
+                }
+                function clickMenu(){
+                    if (itens.style.display == 'block'){
+                        itens.style.display ='none'
+                    } else{
+                        itens.style.display = 'block'
+                    }
+                }
+            </script>
+                    
+            
     
 </body>
 </html>
