@@ -55,14 +55,5 @@ body{
     menu >ul > li> a:hover{
         background-color: gray;
     }
-    main{
-        width: 440px;
-        background-color: white;
-        margin: auto;
-        padding: 10px;
-        border-radius: 10px;
-        margin: 10px;
-        
-    
-    }
+   
    

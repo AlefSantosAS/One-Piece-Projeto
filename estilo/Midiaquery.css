@@ -12,9 +12,13 @@ menu > ul>li{
     display: inline-block;
 }
 main{
-    width: 440x;
+    width: 435px;
     margin: auto;
     text-align: justify;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 9px;
 }
 img{
     width: 90vw;
